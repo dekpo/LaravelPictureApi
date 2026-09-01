@@ -15,7 +15,7 @@ REST API for a picture gallery: public listing plus Sanctum-authenticated write 
 | GET / POST / … | `/api/picture` | no (resource) |
 | CRUD | `/api/authpicture` | Sanctum |
 
-`Picture` model + `PictureResource` for JSON. Register / login issue Sanctum tokens.
+`Picture` model + `PictureResource` for JSON. Register and login issue Sanctum tokens used by the Vue client.
 
 ## Setup
 
